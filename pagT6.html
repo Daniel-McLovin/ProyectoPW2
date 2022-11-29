@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inicios en JS</title>
+    <link rel="stylesheet" href="estilosT6.css">
+    <script>
+      alert("Hola mundo");
+    </script>
+
+  </head>
+  <body>
+    <div id="fondo">
+      <br>
+      <h2 class="titulo">PROYECTO DE PROGRAMACIÓN WEB 2</h2>
+      <h3 class="titulo">By: Hernández Olvera Alexis Daniel</h3>
+      <!-- Crearemos una barra de navegación para cada tarea-->
+      <div id="navegacion">
+          <table>
+            <tr>
+              <!-- Crearemos una clase para el seleccionador de opciones y otra
+            que indique en que página estamos -->
+              <td><a class="opciones" href="index.html">| Menu Principal |</a></td>
+              <td><a class="opciones" href="pagT1.html">| Tarea 1 |</a></td>
+              <td><a class="opciones" href="pagT5.html">| Tarea 5 |</a></td>
+              <td><a class="locacion" href="pagT6.html">| Tarea 6 |</a></td>
+              <td><a class="opciones" href="pagT7.html">| Tarea 7 |</a></td>
+            </tr>
+          </table>
+      </div>
+      <br>
+      <br>
+      <h1>Hola</h1>
+
+      <!-- Mala práctica -->
+      <script>
+          function saludo(){
+            alert("Saludo desde el body"); //Falta mandar a llamar
+          }
+      </script>
+      <br>
+      <br>
+
+      <!-- PRIMERO MANDAMOS A LLAMAR A LA FUNCIÓN -->
+      <section>
+        <button onclick="saludo()">Dale click</button>
+        <button onclick="despedida()">Click de despedida</button>
+        <button onclick="no()">Me quiero quedar</button>
+      </section>
+
+      <!-- Boton al menu principal-->
+      <br>
+      <br>
+      <center>
+        <a href="index.html">
+            <button class="botonMenu" type="button" name="button">Menu Principal</button>
+        </a>
+      </center>
+
+    </div>
+  </body>
+  <script src="app1.js"> </script>
+</html>
